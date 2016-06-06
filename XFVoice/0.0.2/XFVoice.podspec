@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "**/iflyMSC.framework"
 
-  s.frameworks = "AVFoundation", "SystemConfiguration", "Foundation", "CoreTelephoney"
+  s.frameworks = "AVFoundation", "SystemConfiguration", "Foundation", "CoreTelephony", "AddressBook"
 
   s.library = "z"
 
