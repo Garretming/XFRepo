@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xxdzyyh/XFVoice.git", :tag => '0.0.2' }
 
-  s.source_files = "Src/*.h","Scr/*.m"
+  s.source_files = "Src/*.h", "Src/*.m"
 
   s.vendored_frameworks = "**/iflyMSC.framework"
 
