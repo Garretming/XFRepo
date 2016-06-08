@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   	spec.source_files = 'Plugin/*'
   end
 
-  s.dependency 'YYImage'
+  s.dependency 'YYKit'
 
 end
