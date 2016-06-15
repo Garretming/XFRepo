@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/xxdzyyh/XFFoundation.git", :tag => "0.0.1" }
+  s.public_header_files = 'Header/*.h'
 
   s.subspec 'Base' do |spec| 
   	spec.source_files = 'Base/*'
