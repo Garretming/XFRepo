@@ -41,5 +41,7 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'YYKit'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'AFNetworking'
 
 end
