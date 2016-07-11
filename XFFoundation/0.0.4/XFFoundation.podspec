@@ -43,5 +43,7 @@ Pod::Spec.new do |s|
   s.dependency 'YYKit'
   s.dependency 'SVProgressHUD'
   s.dependency 'AFNetworking'
-
+  s.dependency 'MJRefresh'
+  s.dependency 'MBProgressHUD'
+  
 end
