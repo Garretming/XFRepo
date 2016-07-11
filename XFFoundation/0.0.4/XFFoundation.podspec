@@ -29,7 +29,8 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'View' do |spec| 
-  	spec.source_files = 'View/*'
+  	spec.source_files = 'View/*.{h,m}'
+    spec.resource = 'View/*.xib'
   end
 
   s.subspec 'ViewController' do |spec| 
