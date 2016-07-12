@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xxdzyyh/XFPhotoBrowser.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "Classes", "XFPhotoBrowser/**/*.{h,m}"
-  s.resources = "Resouce","XFPhotoBrowser/**/*.png"
+  s.source_files  = "XFPhotoBrowser/Src/*.{h,m}"
+  s.resources = "XFPhotoBrowser/Resource/*.png"
 
   s.requires_arc = true
   s.dependency "SDWebImage"
