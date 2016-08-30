@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xxdzyyh/XFChart.git", :branch => 'master' }
 
-  s.source_files = 'XFChart/Chart'
+  s.source_files = 'XFChart/Chart/*'
 
 end
