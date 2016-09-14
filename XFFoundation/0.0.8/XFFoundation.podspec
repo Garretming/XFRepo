@@ -46,5 +46,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking'
   s.dependency 'MJRefresh'
   s.dependency 'MBProgressHUD'
+  s.dependency 'UMengAnalytics-NO-IDFA'
   
 end
