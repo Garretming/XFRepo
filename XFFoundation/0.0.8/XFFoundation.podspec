@@ -47,5 +47,8 @@ Pod::Spec.new do |s|
   s.dependency 'MJRefresh'
   s.dependency 'MBProgressHUD'
   s.dependency 'UMengAnalytics-NO-IDFA'
+  s.dependency 'ChameleonFramework'
+  s.dependency 'Masonry'
+  s.dependency 'pop'
   
 end
