@@ -37,10 +37,6 @@ Pod::Spec.new do |s|
   	spec.source_files = 'ViewController/*'
   end
 
-  s.subspec 'Plugin' do |spec| 
-  	spec.source_files = 'Plugin/*'
-  end
-
   s.dependency 'YYKit'
   s.dependency 'SVProgressHUD'
   s.dependency 'AFNetworking'
