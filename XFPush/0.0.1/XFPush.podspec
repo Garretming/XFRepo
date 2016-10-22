@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
-  s.name         = "XFPlugin"
+  s.name         = "XFPush"
   s.version      = "0.0.1"
-  s.summary      = "插件定义"
+  s.summary      = "推送插件"
 
   s.description  = <<-DESC
-                   XF 插件
+                   XF 推送插件
                    DESC
 
   s.homepage     = "http://www.baidu.com"
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Push/*'
 
+  s.dependency 'XFPlugin' 
 end
