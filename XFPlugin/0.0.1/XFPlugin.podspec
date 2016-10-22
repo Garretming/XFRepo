@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Plugin/*'
 
-  s.public_header_files = 'Header/*'
+  s.public_header_files = 'Header/*.h'
 
 end
