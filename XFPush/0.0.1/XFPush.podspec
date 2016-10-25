@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xxdzyyh/XFPush.git", :branch => 'master' }
 
-  spec.vendored_libraries = 'Push/libUMessage_Sdk_1.3.0.a'
+  s.vendored_libraries = 'Push/libUMessage_Sdk_1.3.0.a'
   s.source_files = 'Push/*.{h,m}'
 
   s.dependency 'XFPlugin' 
