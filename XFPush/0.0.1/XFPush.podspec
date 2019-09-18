@@ -8,18 +8,14 @@ Pod::Spec.new do |s|
                    XF 推送插件
                    DESC
 
-  s.homepage     = "http://www.baidu.com"
-
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-  s.author             = { "xxdzyyh" => "xxdzyyh@163.com" }
-  
+  s.homepage     = "https://xxdzyyh.github.io"
+  s.license      = { :type => "MIT" }
+  s.author       = { "xxdzyyh" => "xxdzyyh@163.com" }
   s.platform     = :ios, "7.0"
-
   s.source       = { :git => "https://github.com/xxdzyyh/XFPush.git", :branch => 'master' }
-
-  s.vendored_libraries = 'Push/libUMessage_Sdk_1.3.0.a'
   s.source_files = 'Push/*.{h,m}'
 
-  s.dependency 'XFPlugin' 
+  s.dependency 'XFPlugin'
+  s.dependency 'QQ_XGPush'
+
 end
